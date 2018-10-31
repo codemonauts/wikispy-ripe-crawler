@@ -1,0 +1,116 @@
+queries:
+    # BiZBw	Bildungszentrum der Bundeswehr
+    # BAAINBw	Bundesamt für Ausrüstung, Informationstechnik und Nutzung der Bundeswehr
+    # BAIUDBw	Bundesamt für Infrastruktur, Umweltschutz und Dienstleistungen der Bundeswehr
+    # BAPersBw	Bundesamt für das Personalmanagement der Bundeswehr
+    # EKA	Evangelisches Kirchenamt für die Bundeswehr
+    # LufABw	Luftfahrtamt der Bundeswehr
+    # PlgABw	Planungsamt der Bundeswehr
+    - owner: Bundeswehr
+      queries:
+        - type: fulltext
+          value: '(netname:(bundeswehr))+AND+(object-type:inet6num+OR+object-type:inetnum)'
+
+    # BAA	Bundesausgleichsamt
+    # BAFA	Bundesamt für Wirtschaft und Ausfuhrkontrolle
+    # BAFzA	Bundesamt für Familie und zivilgesellschaftliche Aufgaben
+    # BAG	Bundesamt für Güterverkehr
+    # BAMF	Bundesamt für Migration und Flüchtlinge
+    # BAR	Bundesamt für äußere Restitutionen
+    # BArch	Bundesarchiv
+    # BADV	Bundesamt für zentrale Dienste und offene Vermögensfragen
+    # BAV-BMVBS	Bundesanstalt für Verwaltungsdienstleistungen
+    # BBK	Bundesamt für Bevölkerungsschutz und Katastrophenhilfe
+    # BBR	Bundesamt für Bauwesen und Raumordnung
+    # BeschA	Beschaffungsamt des Bundesministeriums des Innern
+    # BfArM	Bundesinstitut für Arzneimittel und Medizinprodukte
+    # BfB	Bundesmonopolverwaltung für Branntwein
+    # BfE	Bundesamt für kerntechnische Entsorgungssicherheit
+    # BfN	Bundesamt für Naturschutz
+    # BfS	Bundesamt für Strahlenschutz
+    # BFU	Bundesstelle für Flugunfalluntersuchung
+    # BAF	Bundesaufsichtsamt für Flugsicherung
+    # BfV	Bundesamt für Verfassungsschutz
+    # BfJ	Bundesamt für Justiz
+    # BKA	Bundeskriminalamt
+    # BKG	Bundesamt für Kartographie und Geodäsie
+    # BKGE	Bundesinstitut für Kultur und Geschichte der Deutschen im östlichen Europa
+    # BND	Bundesnachrichtendienst
+    # BPOLP	Bundespolizeipräsidium
+    # BSI	Bundesamt für Sicherheit in der Informationstechnik
+    # BSH	Bundesamt für Seeschifffahrt und Hydrographie
+    # BSU	Bundesstelle für Seeunfalluntersuchung
+    # BKartA	Bundeskartellamt
+    # BPjM	Bundesprüfstelle für jugendgefährdende Medien
+    # BSA	Bundessortenamt
+    # BSprA	Bundessprachenamt
+    # BStU	Bundesbeauftragter für die Unterlagen des Staatssicherheitsdienstes der ehemaligen Deutschen Demokratischen Republik
+    # BVA	Bundesversicherungsamt
+    # BVA	Bundesverwaltungsamt
+    - owner: Bundesverwaltungsamt
+      queries:
+        - type: org
+          value: ORG-BVA15-RIPE
+        - type: org
+          value: ORG-DA354-RIPE
+
+    # BVL	Bundesamt für Verbraucherschutz und Lebensmittelsicherheit
+    # BZgA	Bundeszentrale für gesundheitliche Aufklärung
+    # BZSt	Bundeszentralamt für Steuern
+    # DPMA	Deutsches Patent- und Markenamt
+    # EBA	Eisenbahn-Bundesamt
+    # GDWS	Generaldirektion Wasserstraßen und Schifffahrt
+    # GZD	Generalzolldirektion
+    # HK	Havariekommando – Gemeinsame Einrichtung des Bundes und der Küstenländer
+    # ITZBund	Informationstechnikzentrum Bund
+    # KMBA	Katholisches Militärbischofsamt
+    # KBA	Kraftfahrt-Bundesamt
+    # LBA	Luftfahrt-Bundesamt
+
+    # BAMAD	Bundesamt für den Militärischen Abschirmdienst
+    # BNetzA	Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen
+    # Destatis	Statistisches Bundesamt
+    # UBA	Umweltbundesamt
+    # ZITiS	Zentrale Stelle für Informationstechnik im Sicherheitsbereich
+    # ZKA	Zollkriminalamt (als Direktion VIII der Generalzolldirektion)
+
+    # BaFin	Bundesanstalt für Finanzdienstleistungsaufsicht
+    # BAM	Bundesanstalt für Materialforschung und -prüfung
+    # BAnstPT	Bundesanstalt für Post und Telekommunikation Deutsche Bundespost
+    # BASt	Bundesanstalt für Straßenwesen
+    # BAuA	Bundesanstalt für Arbeitsschutz und Arbeitsmedizin
+    # BAW	Bundesanstalt für Wasserbau
+    # BDBOS	Bundesanstalt für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben
+    # BfG	Bundesanstalt für Gewässerkunde
+    # BfR	Bundesinstitut für Risikobewertung
+    # BGR	Bundesanstalt für Geowissenschaften und Rohstoffe
+    # BiB	Bundesinstitut für Bevölkerungsforschung
+    # BIBB	Bundesinstitut für Berufsbildung
+    # BImA	Bundesanstalt für Immobilienaufgaben
+    # BISp	Bundesinstitut für Sportwissenschaft
+    # BLE	Bundesanstalt für Landwirtschaft und Ernährung
+    # bpb	Bundeszentrale für politische Bildung
+    # BvS	Bundesanstalt für vereinigungsbedingte Sonderaufgaben
+    # DAI	Deutsches Archäologisches Institut
+    # DIMDI	Deutsches Institut für Medizinische Dokumentation und Information
+    # DNB	Deutsche Nationalbibliothek
+    # DWD	Deutscher Wetterdienst
+    # JKI	Julius Kühn-Institut – Bundesforschungsinstitut für Kulturpflanzen
+    # MRI	Max Rubner-Institut – Bundesforschungsinstitut für Ernährung und Lebensmittel
+    # PEI	Paul-Ehrlich-Institut – Bundesinstitut für Impfstoffe und biomedizinische Arzneimittel
+    # PTB	Physikalisch-Technische Bundesanstalt
+    # RKI	Robert-Koch-Institut – Bundesinstitut für Infektionskrankheiten und nicht übertragbare Krankheiten
+    # THW	Bundesanstalt Technisches Hilfswerk
+    # vTI	Johann Heinrich von Thünen-Institut – Bundesforschungsinstitut für Ländliche Räume, Wald und Fischerei
+
+    # EMilD	Evangelische Militärdekanate
+    # EMilPfA	Evangelische Militärpfarrämter
+    # HZA	Hauptzollämter
+    # WNA	Wasserstraßenneubauämter
+    # WSA	Wasserstraßen- und Schifffahrtsämter
+    # ZA	Zollämter
+    # ZFA	Zollfahndungsämter
+
+    # BA	Bundesagentur für Arbeit
+    # DRV-Bund	Deutsche Rentenversicherung Bund
+    # DRV-KBS	Deutsche Rentenversicherung Knappschaft-Bahn-See
